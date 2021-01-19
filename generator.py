@@ -2,6 +2,8 @@ from typing import Generator
 from datetime import date, datetime
 import os
 
+## spl1ffytech
+
 def generator(number):
     typebeats = "{} type beat\nfree {} type beat\n{} type beat 2021\nfree {} type beat 2021\n{} hard type beat\n{} hard type beat 2021\n"
     today = datetime.now()
