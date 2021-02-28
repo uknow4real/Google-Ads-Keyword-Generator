@@ -1,5 +1,4 @@
-from typing import Generator
-from datetime import date, datetime
+from datetime import datetime
 import os
 
 ## spl1ffy.tech
@@ -9,7 +8,7 @@ def generator(number):
     today = datetime.now()
     d1 = today.strftime("%d_%m_%Y-%H:%M:%S")
     filename = d1 +".csv"
-    dirname = os.path.dirname(filename)
+    #dirname = os.path.dirname(filename)
     if os.path.exists(filename):
         append_write = 'a' # append if already exists
     else:
@@ -21,6 +20,7 @@ def generator(number):
         result = typebeats.format(artist, artist, artist, artist, artist, artist, 6)
         f.write(result)
         i = int(i) + 1 
+    print("Done!")
     f.close
     
 number = int(input("Number of Artists: "))
