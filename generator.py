@@ -1,7 +1,7 @@
 from datetime import datetime
 import os
 
-## spl1ffy.tech
+## spl1ffy.tech 
 
 def generator(number):
     typebeats = "{} type beat\nfree {} type beat\n{} type beat 2021\nfree {} type beat 2021\n{} hard type beat\n{} hard type beat 2021\n"
